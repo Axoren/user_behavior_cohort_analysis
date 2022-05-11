@@ -11,7 +11,6 @@ This project performs a detailed cohort retention analysis on e-commerce transac
 - **Dataset:** Transaction data CSV (`data/data.csv`)  
 - **Visuals:** `screenshots/retention_heatmap.png`
 
----
 
 ## 🔍 Analysis Overview
 
@@ -33,7 +32,6 @@ This project performs a detailed cohort retention analysis on e-commerce transac
 
 ![Retention Heatmap](screenshots/retention_heatmap.png)
 
----
 
 ## 📈 Key Findings
 
@@ -57,7 +55,6 @@ This project performs a detailed cohort retention analysis on e-commerce transac
    - Bumps in retention during Months 5–8 suggest mid-term re-engagement campaigns are effective.  
    - *Implication:* Schedule targeted email reminders or feature updates around Months 4–6.
 
----
 
 ## 🚀 Recommendations
 
@@ -76,7 +73,4 @@ This project performs a detailed cohort retention analysis on e-commerce transac
 - **Mid-Term Re-Engagement**  
   Deploy targeted campaigns between Months 5–8, when users are most receptive to returning.
 
----
-
-## 📂 Project Structure
 

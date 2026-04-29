@@ -29,6 +29,29 @@ Main fields used:
 | Quantity | Number of purchased items |
 | UnitPrice | Item price |
 
+## Project Files
+
+| Path | Purpose |
+|---|---|
+| `user_behavior_analysis.ipynb` | Exploratory notebook with cohort calculations and visualization |
+| `src/cohort_retention_analysis.py` | Clean reproducible Python script for cohort retention calculation |
+| `requirements.txt` | Python dependencies |
+| `screenshots/` | Exported visualizations |
+
+## How to Run
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the analysis script:
+
+```bash
+python src/cohort_retention_analysis.py
+```
+
 ## Methodology
 
 The analysis follows this workflow:
@@ -97,6 +120,18 @@ retention_rate = retained_users / cohort_size
 
 5. Track cohort quality over time.
    Newer cohorts should be compared with older cohorts at the same age, not by calendar month only.
+
+## Code Quality Improvements
+
+The project now includes a reproducible script version of the analysis.
+
+The script:
+
+- separates loading, cleaning, cohort calculation, visualization, and reporting into functions,
+- creates a monthly retention matrix,
+- saves the retention heatmap into `screenshots/`,
+- prints average Month 2 and Month 3 retention,
+- uses clear naming and typed function signatures.
 
 ## Limitations
 
